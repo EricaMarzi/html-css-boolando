@@ -28,6 +28,17 @@ a {
     display: flex;
 }
 
+.bg-red {
+    background-color: red;
+    
+
+}
+
+.bg-green {
+    background-color: green;
+    
+}
+
 /*HEADER*/
 
 header {
@@ -81,7 +92,6 @@ i.header {
 }
 
 .card {
-    border: 1px solid red;
     height: 650px;
     padding: 1rem;
     max-width: calc(100% / 3);
@@ -102,6 +112,20 @@ img {
     top: 25px;
 }
 
+.box {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    position: absolute;
+    left: 16px;
+    bottom: 40px;
+}
+
+.discount > .sustainability {
+    left: 60px;
+    bottom: 0;
+}
 
 /*Descrizione prodotto*/
 .product {
