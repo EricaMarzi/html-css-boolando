@@ -208,9 +208,10 @@ footer {
 footer > .container.flex {
     height: 100%;
     align-items: center;
+    justify-content: space-between;
 }
 
-h4 {
+h4, h3{
     color: white;
 }
 
@@ -218,3 +219,10 @@ h4 {
     font-size: 14px;
     line-height: 2rem;
 }
+
+.icon-footer {
+    line-height: 2rem;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
