@@ -105,16 +105,49 @@ i.header {
     margin-bottom: 70px;
 }
 
+/*Immagini prodotti*/
+
 .relaxed-fit-tee-unisex {
     background-image: url(img/1.webp);
 }
-
-
 .relaxed-fit-tee-unisex:hover {
     background-image: url(img/1b.webp);
 }
 
+.rose-tee {
+    background-image: url(img/2.webp);
+}
+.rose-tee:hover {
+    background-image: url(img/2b.webp);
+}
 
+.pastello {
+    background-image: url(img/3.webp);
+}
+.pastello:hover {
+    background-image: url(img/3b.webp);
+}
+
+.tee-unisex {
+    background-image: url(img/4.webp);
+}
+.tee-unisex:hover {
+    background-image: url(img/4b.webp);
+}
+
+.stipe-bodice {
+    background-image: url(img/5.webp);
+}
+.stipe-bodice:hover {
+    background-image: url(img/5b.webp);
+}
+
+.espirit {
+    background-image: url(img/6.webp);
+}
+.espirit:hover {
+    background-image: url(img/6b.webp);
+}
 
 
 
