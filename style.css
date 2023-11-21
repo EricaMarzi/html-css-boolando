@@ -35,6 +35,7 @@ header {
     background-color: #ff6900;
     position: fixed;
     top: 0;
+    z-index: 1;
     width: 100%;
 }
 
@@ -85,11 +86,22 @@ i.header {
     padding: 1rem;
     max-width: calc(100% / 3);
     margin-bottom: 70px;
+    position: relative;
 }
 
-img.relaxed-fit-tee-unisex {
+img {
     max-width: 100%;
 }
+
+.heart {
+    font-size: 35px;
+    background-color: white;
+    padding: 5px 15px;
+    position: absolute;
+    right: 16px;
+    top: 25px;
+}
+
 
 /*Descrizione prodotto*/
 .product {
