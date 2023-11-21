@@ -4,3 +4,62 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Utility*/
+
+.container {
+    width: 1500px; /* max-width? */
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+/*HEADER*/
+
+header {
+    height: 70px ;
+    background-color: #ff6900;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-bar.flex {
+    margin: 0 auto;
+    height: 100%;
+    justify-content: space-between;
+    align-content: center; /* ???? */
+    
+}
+
+.category {
+    gap: 10px;
+    align-self: center;
+}
+
+.category a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logo {
+    height: 30px;
+    align-self: center;
+}
+
+.font-awesome {
+    align-self: center;
+}
+
+i.header {
+    color: white;
+}
