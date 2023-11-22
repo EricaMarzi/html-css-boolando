@@ -86,9 +86,6 @@ i.header {
 
 /*MAIN*/
 
-
-
-/*bg-image*/
 .row.flex {
     margin: 0 -1rem;
     flex-wrap: wrap;
@@ -150,7 +147,6 @@ i.header {
 }
 
 
-
 .heart {
     font-size: 35px;
     background-color: white;
@@ -159,7 +155,6 @@ i.header {
     right: 0;
     top: 10px;
 }
-
 .heart:hover {
     color: red;
 }
