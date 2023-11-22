@@ -160,6 +160,10 @@ i.header {
     top: 10px;
 }
 
+.heart:hover {
+    color: red;
+}
+
 .box {
     color: white;
     font-size: 14px;
